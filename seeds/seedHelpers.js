@@ -1,0 +1,92 @@
+module.exports.adjectives = [
+    'Fresh Grilled',
+    'Pitifully Flawed',
+    'Fat Greasy',
+    'Allnight',
+    'Goodly Fat',
+    'Dertigtal',
+    'Rubbery',
+    'Juicy',
+    'Vintage',
+    'Quick',
+    'Satisfying',
+    'Dead-End',
+    'So-So',
+    'Big Sloppy',
+    'Happy Little',
+    'Vegetarian',
+    'Dusty',
+    'Superb American-Style'
+]
+
+module.exports.names = [
+    'Desire',
+    'Strike',
+    'Pulp',
+    'Pond',
+    'Savor',
+    'Dead Horse',
+    'Ghost Ship',
+    'Bay',
+    'Fantasy',
+    'Baby',
+    'Supreme',
+    'Vanguard',
+    'Volt',
+    'Death',
+    'Spring',
+    'Spirit ',
+    'Sands',
+    'Fish',
+    'Hunter',
+    'Winter',
+    'Summer'
+]
+
+
+module.exports.descriptors = [
+    'I apologize for not having heard of The Rockford Files, but cheese!',
+    'Easy Com-mercial, Easy Go-mercial.',
+    'This would have been way lower in the rankings if not for the whole "lots of fennel, no thyme" part.',
+    "Can't Buy Me Math.",
+    'The Kids Run the Restaurant.',
+    'This is like Cyndi Lauper gone vegan.',
+    'Sexy Dance Fighting.',
+    'Bob and Deliver.',
+    'The idea of sweaty palms and a burger kinda grosses me out, but this pun is on point, and hearts of palm are delicious.',
+    'Synchronized Swimming.',
+    'Speakeasy Rider',
+    'Late Afternoon in the Garden of Bob and Louise',
+    "THIS IS EVERYTHING. Also, has Weezer considered changing their lyrics to this? It's never too late, Rivers.",
+    'Tina-rannosaurus Wrecks',
+    'I Get Psy-chic Out of You',
+    'You do?!?!',
+    'The song is by Wings! And it comes with wings! Keep it up.',
+    "Shallots are pretty small, so it probably wouldn't hurt that much."
+]
+
+
+module.exports.images = [
+    "jonathan-borba-1kA3lACHeqk-unsplash_p1cop7",
+    "eaters-collective-vOdK_eih7B0-unsplash_jjvgu1",
+    "yusuf-evli-BJ6Bkrl1e-U-unsplash_bjk4xp",
+    "armando-ascorve-morales-ypZI_CA91M0-unsplash_p3loon",
+    "lidye-1Shk_PkNkNw-unsplash_bn4ngc",
+    "amirali-mirhashemian-9hIJ4ZLMnZA-unsplash_n7a2gj",
+    "raphael-maksian-IsmVrCPM5ms-unsplash_ytg2ci",
+    "oliur-M-fA89yvx2I-unsplash_ogf9up",
+    "eiliv-sonas-aceron-Op6iy0YoYzg-unsplash_mqsf29",
+    "yoad-shejtman-fAHqBkhLE7s-unsplash_u2d6qq",
+    "amirali-mirhashemian-IB__k0z3XtQ-unsplash_ob9pkl",
+    "miha-rekar-1MKjWmZaZvo-unsplash_ewfowm",
+    "david-holifield-FGGOizCHAvc-unsplash_qqyyv6",
+    "zachary-spears-TgOfWYEHRyQ-unsplash_xpz1ug",
+    "mae-mu-I7A_pHLcQK8-unsplash_f2hdoq",
+    "call-me-hangry-hoUmVcrsCVU-unsplash_yeprst",
+    "mario--s27nY8mZUE-unsplash_rcugep",
+    "ilya-mashkov-_qxbJUr9RqI-unsplash_fb0mp4",
+    "niklas-rhose-FlmXvqlD-nI-unsplash_zvfmkz",
+    "changyoung-koh-xUYf8bQt5e8-unsplash_jbvsfn",
+    "jay-wennington-gm2zwTb0s9c-unsplash_g92bj7",
+    "miha-rekar-ISVtBKNhJ2g-unsplash_fsn9cf"
+]

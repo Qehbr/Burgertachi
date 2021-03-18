@@ -1,0 +1,42 @@
+<% layout('layouts/boilerplate')%>
+
+    <div class="row">
+        <h1 class="text-center display-4">New Burger</h1>
+        <div class="col-6 offset-3">
+            <form action="/burgertachi" , method="POST" class="validated-form" novalidate enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label class="form-label" for="title">Title</label>
+                    <input class="form-control" type="text" id="title" name="burger[title]" required>
+                    <div class="valid-feedback">Looks nice!</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="location">Location</label>
+                    <input class="form-control" type="text" id="location" name="burger[location]" required>
+                    <div class="valid-feedback">Looks nice!</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="price">Price</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="price-label">$</span>
+                        <input type="text" class="form-control" id="price" placeholder="0.00" aria-label="Price"
+                            aria-describedby="price-label" name="burger[price]" required>
+                    </div>
+                    <div class="valid-feedback">Looks nice!</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="description">Description</label>
+                    <textarea class="form-control" type="text" id="description" name="burger[description]"
+                        required></textarea>
+                    <div class="valid-feedback">Looks nice!</div>
+                </div>
+                <div class="mb-3">
+                    <label for="formFileMultiple" class="form-label">Choose Image(s): (1-5)</label>
+                    <input class="form-control" type="file" id="formFileMultiple" name="image" multiple required>
+                </div>
+                <div class="d-grid gap-2 col-12 mx-auto mt-4 mb-3">
+                    <button class="btn primary text-white">Add Burger</button>
+                    <a class="btn btn-danger" href="/burgertachi">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>

@@ -1,0 +1,41 @@
+<% layout('layouts/boilerplate')%>
+
+    <div id="cluster-map" class="mb-3"></div>
+
+    <h1 class="display-4">All Burgers:</h1>
+
+    <% for (let b of burgers.reverse()) { %>
+        <div class="card mb-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <% if(b.images.length) {%>
+                        <img class="img-fluid" alt="" src="<%= b.images[0].url%>">
+                        <% } else {%>
+                            <img class="img-fluid" alt="" src="">
+                            <% } %>
+                </div>
+                <div class="col-md-8">
+                    <img class="card-body">
+                    <h5 class="card-title">
+                        <%= b.title %>
+                    </h5>
+                    <p class="card-text">
+                        <%= b.description %>
+                    </p>
+                    <p class="card-text">
+                        <small class="text-muted">
+                            <%= b.location %>
+                        </small>
+                    </p>
+                    <a href="burgertachi/<%= b._id %>" class="btn primary text-white">View <%= b.title %> </a>
+                </div>
+            </div>
+
+        </div>
+        <% } %>
+
+            <script>
+                const mapToken = '<%-process.env.MAPBOX_TOKEN %>';
+                const burgers = <%-JSON.stringify(burgers)%>;
+            </script>
+            <script src="/javascripts/clusterMap.js"></script>
